@@ -36,8 +36,8 @@ laplacian=cv2.Laplacian(image2,cv2.CV_64F)
 Display all the images with their respective filters.
 
 ## Program:
-### Developed By   : Ashwin Raaj.S
-### Register Number: 212221230008
+### Developed By   : M.Pavan Kishore
+### Register Number: 212221230076
 
 ```python
 import cv2
@@ -113,28 +113,36 @@ cv2.destroyAllWindows()
 
 ## OUTPUT:
 ### Original Image
-![output](ss1.png)
+
 
 ### 1. Smoothing Filters
 ### Using Averaging Filter
-![output](ss2.png)
+![Screenshot (4)](https://user-images.githubusercontent.com/94154941/234290061-ce09e635-22af-4da0-98de-724ef969366f.png)
+
 
 ### Using Weighted Averaging Filter
-![output](ss3.png)
+
+![Screenshot (5)](https://user-images.githubusercontent.com/94154941/234290267-33db4964-88aa-48c5-98dc-eb855bff8eb2.png)
+
 
 ### Using Gaussian Filter
-![output](ss4.png)
+
+![Screenshot (6)](https://user-images.githubusercontent.com/94154941/234290343-903ccd02-56b4-4906-a431-4d6fc07895c0.png)
 
 ### Using Median Filter
-![output](ss5.png)
+
+![Screenshot (7)](https://user-images.githubusercontent.com/94154941/234290419-42f90910-c794-4a68-bf28-eabbfd937768.png)
+
 
 ### 2. Sharpening Filters
 
 ### Using Laplacian Kernal
-![output](ss6.png)
+![Screenshot (8)](https://user-images.githubusercontent.com/94154941/234290458-4b2c8d0a-f042-4f40-92fc-3a5c0c9c83ed.png)
+
 
 ### Using Laplacian Operator
-![output](ss7.png)
+
+![Screenshot (9)](https://user-images.githubusercontent.com/94154941/234290490-1465575d-c321-44d8-a459-fecb8e9b338a.png)
 
 ## Result:
 Thus the filters are designed for smoothing and sharpening the images in the spatial domain.
